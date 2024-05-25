@@ -1,0 +1,38 @@
+{
+  "properties": [
+    {
+      "name": "spring.datasource.jpa.database-platform",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.jpa.database-platform."
+    },
+    {
+      "name": "spring.datasource.jpa.generate-ddl",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.jpa.generate-ddl."
+    },
+    {
+      "name": "spring.datasource.jpa.show-sql",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.jpa.show-sql."
+    },
+    {
+      "name": "spring.datasource.jpa.hibernate.ddl-auto",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.jpa.hibernate.ddl-auto."
+    },
+    {
+      "name": "spring.datasource.jpa.properties.hibernate.globally_quoted_identifier",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.jpa.properties.hibernate.globally_quoted_identifier."
+    },
+    {
+      "name": "spring.datasource.jpa.properties.hibernate.dialect",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.jpa.properties.hibernate.dialect."
+    },
+    {
+      "name": "spring.datasource.jpa.properties.hibernate.format_sql",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.jpa.properties.hibernate.format_sql."
+    }
+  ] }

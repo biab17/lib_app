@@ -12,7 +12,7 @@ import java.util.Properties;
 public class AdminsDB {
 
     private final Connection connection;
-    private static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/your_database";
+    private static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/library_schema_bun";
     private static final String DB_USER = "root";
     private static final String DB_PASSWORD = "bubu18";
 

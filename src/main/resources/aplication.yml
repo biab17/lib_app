@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/library_schema_bun
+    password: bubu18
+    username: root
+    jpa:
+      database-platform: org.hibernate.dialect.MySQL8InnoDBDialect
+      generate-ddl: true
+      show-sql: true
+      hibernate:
+        ddl-auto: update
+      properties:
+        hibernate:
+          globally_quoted_identifier: true
+          dialect: org.hibernate.dialect.MySQL8InnoDBDialect
+          format_sql: true
+  profiles:
+    active: production
+  sql:
+    init:
+      mode: never
+      continue-on-error: false

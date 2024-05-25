@@ -1,15 +1,18 @@
 package databaseLink;
 
+import org.springframework.stereotype.Component;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Properties;
 
+@Component
 public class UserDB {
 
     private final Connection connection;
-    private static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/your_database";
+    private static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/library_schema_bun";
     private static final String DB_USER = "root";
     private static final String DB_PASSWORD = "bubu18";
 
