@@ -1,0 +1,78 @@
+.signup-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 600px auto;
+    background-color: #f7d7a8; /* Warm background color */
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7c6a8; /* Slightly different warm color */
+  }
+  
+  .image-container{
+    background-image: url(../../assets/images/booksimage.jpg);
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .form-container {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f7d7a8; /* Match the background color */
+  }
+  
+ h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 3em; /* Ajustează dimensiunea textului după cum este necesar */
+  color: #333; /* Culoare text, poți schimba în funcție de preferințe */
+  text-align: center; /* Centrarea textului */
+  margin-top: 20px; /* Spațiu de sus */
+  margin-bottom: 20px; /* Spațiu de jos */
+  line-height: 1.2; /* Înălțimea rândului */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Umbră text pentru un efect ușor de adâncime */
+}
+
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e07b39;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d3692b;
+  }
+  
